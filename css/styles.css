@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 html{
     font-family: 'Montserrat', sans-serif;
@@ -38,36 +38,92 @@ html{
             background: lightblue;
         }
     header{
-        display: flex;
-        justify-content: space-between;
+        display: flex;       
         padding: 2%;
         background: #977f7f;
         margin-bottom: 10px;
+        border-radius: 10px;
         }
         img{
-            width: 8%;
+            width: 12%;
+            border-radius: 10px;      
             display: flex;
             justify-content: start;
             }
-        nav{
-            display: flex;
+        h1 {    
+            color:whitesmoke;
+            text-align: center;
+        }
+        nav{            
             justify-content: space-between;
+            background-color: #977f7f;
+            color: thistle; 
+
             }
             nav ul{
                 display: flex;
                 list-style: none;
+                padding: 0;
+                padding-top: 10px;
                 }
                 nav ul li{
                     margin-right: 10px;
+                                      
                     }
                     nav ul li a{
                         text-decoration: none;
-                        color: black;
+                        color: whitesmoke;                        
+                        border-radius: 10%;
+                        transition: 1s;
+                    
                         }
                         nav ul li a:hover{
-                            color: red;
+                            color: rgb(109, 41, 41);
+                            background: whitesmoke;
                         }
 
+    .logo{
+        width: 12%;        
+        }
+        .logo img{
+            width: 100%;
+            border-radius: 10px;
+            }
+    .search{
+        width: 50%;
+        }
+        .search input[type="text"]{
+            width: 80%;
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            }
+            .search input[type="submit"]{
+                padding: 5px;
+                border-radius: 5px;
+                border: none;
+                background: #420505;
+                color: white;
+                }
+                .search input[type="submit"]:hover{
+                    background: #977f7f;
+                }
+    .news-main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+        .news-main article{
+            width: 30%;
+            padding: 2%;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            margin-bottom: 10px;
+            }
+            .news-main article img{
+                width: 100%;
+                
+}
 
 .news-main{
     width: 90%; margin: 0 auto;
@@ -94,6 +150,7 @@ footer{
     text-align: center;
     margin-top: 10px;
     border-radius: 10px;
+    justify-content: center;
             }
         
 @media screen and (max-width: 576px){
@@ -105,6 +162,9 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+    h1 {
+        font-size: 1.5em;
+    } 
     .news-main{
         flex-direction: column;
         width: 100%;
@@ -117,12 +177,16 @@ footer{
 @media screen and (min-width: 576px) and (max-width: 900px){
     body{
         background: grey;
-    header{
-        flex-wrap: wrap;
     }
+    header{
+        flex-direction: row;
+    }    
     .logo{
         text-align: center;
-    }  
+    } 
+    h1 {
+        font-size: 2em;
+    }
     .news-main{
         flex-wrap: wrap;
     }
@@ -136,13 +200,16 @@ footer{
     .news-main article{
         width: 45%;
     }
-    } 
-}
+} 
+
 
 @media screen and (min-width: 900px) and (max-width: 1200px){
     body{
         background: grey;
-        color: black;
+        color: black;        
+    }
+    .logo{
+        text-align: center;
     }
     .news-main{
         flex-wrap: wrap;
@@ -154,6 +221,12 @@ footer{
 @media screen and (min-width: 1200px){
     body{
         background: grey;
+    }
+    .logo{
+        text-align: center;
+    }
+    h1 {
+        font-size: 2.5em;
     }
     .news-main{
         flex-wrap: wrap;
