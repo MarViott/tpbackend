@@ -35,7 +35,7 @@ html{
         .banner{
             width: 30%;
             height: 240px;
-            background: lightblue;
+            background: rgb(248, 238, 224);
         }
     header{
         display: flex;       
@@ -156,7 +156,7 @@ footer{
 @media screen and (max-width: 576px){
    
     body{
-        background: rgb(237, 157, 143);
+        background: rgba(128, 128, 128, 0.695);
     }
     header{
         flex-direction: column;
@@ -176,7 +176,7 @@ footer{
 }
 @media screen and (min-width: 576px) and (max-width: 900px){
     body{
-        background: grey;
+        background: rgba(128, 128, 128, 0.695);
     }
     header{
         flex-direction: row;
@@ -205,7 +205,7 @@ footer{
 
 @media screen and (min-width: 900px) and (max-width: 1200px){
     body{
-        background: grey;
+        background: rgba(128, 128, 128, 0.695);
         color: black;        
     }
     .logo{
@@ -220,7 +220,7 @@ footer{
 }
 @media screen and (min-width: 1200px){
     body{
-        background: grey;
+        background: rgba(128, 128, 128, 0.695);
     }
     .logo{
         text-align: center;
