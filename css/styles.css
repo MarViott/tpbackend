@@ -9,6 +9,18 @@ html{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
+bg1{
+    color: #977f7f
+}
+bg2{
+    color: #6d0909
+}
+bg3{
+    color: #af4d4d
+}
+bg4{
+    color: #f8eee0
+}
 /* fkexbox */
 
 .container{
@@ -67,15 +79,13 @@ html{
                 padding-top: 10px;
                 }
                 nav ul li{
-                    margin-right: 10px;
-                                      
+                    margin-right: 20px;                                     
                     }
                     nav ul li a{
                         text-decoration: none;
                         color: whitesmoke;                        
                         border-radius: 10%;
                         transition: 1s;
-                    
                         }
                         nav ul li a:hover{
                             color: rgb(109, 41, 41);
