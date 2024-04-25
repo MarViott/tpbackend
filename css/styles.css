@@ -161,7 +161,25 @@ footer{
     margin-top: 10px;
     border-radius: 10px;
     justify-content: center;
+            }       
+   
+    .social{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        }
+        .social a{
+            margin-right: 10px;
             }
+            .social a img{
+                width: 30px;
+                border-radius: 50%;
+                }
+                .social a img:hover{
+                    background: #420505;
+                    border-radius: 50%;
+                    }
+/* media queries */
         
 @media screen and (max-width: 576px){
    
