@@ -17,3 +17,6 @@
       }, false)
     })
   })()
+
+  // Path: js/validacion.js
+  
