@@ -29,8 +29,7 @@ bg4{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
+   
     }
     .items{
         width: 30%;
@@ -60,6 +59,7 @@ bg4{
         margin-bottom: 10px;
         margin-top: 10px;
         border-radius: 10px;
+        width: 80% !important;
         
         }
         img{
@@ -102,6 +102,17 @@ bg4{
                             background: whitesmoke;
                         }
 
+    .estrenos{
+        background:rgba(61, 9, 18, 0.724);
+        color: white;
+        border: 1px solid #420505;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+        position: sticky; 
+        top: 0;
+    
+}
     .logo{
         width: 12%;        
         }
@@ -168,6 +179,7 @@ footer{
     margin-top: 10px;
     border-radius: 10px;
     justify-content: center;
+    width: 80% !important;
             }       
    
     .social{
@@ -187,6 +199,11 @@ footer{
                     background: #420505;
                     border-radius: 50%;
                     }
+.myheader, .myfooter {
+    width: 80% !important;
+     /* Anulamos la regla de Bootstrap y permitimos que el ancho sea automático */
+                    }
+                                     
 /* media queries */
         
 @media screen and (max-width: 576px) or (orientation: portrait){
