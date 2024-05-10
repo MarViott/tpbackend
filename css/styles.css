@@ -201,12 +201,11 @@ footer{
 
 /* Anulamos la regla de Bootstrap y permitimos que el ancho sea con margenes */
 .myheader, .myfooter {
-    width: 100% !important;
     margin-left: 10px !important;
     margin-right: 10px !important;
     border-radius: 10px !important;    
-                    }
-                                     
+                    }       
+                                                  
 /* media queries */
         
 @media screen and (max-width: 576px) or (orientation: portrait){
