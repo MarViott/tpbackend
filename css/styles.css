@@ -19,7 +19,7 @@ bg3{
     color: #af4d4d
 }
 bg4{
-    color: #f8eee0
+    color: rgba(128, 128, 128, 0.807)
 }
    
 /* fkexbox */
@@ -30,7 +30,7 @@ bg4{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-   
+    margin: 10px;   
     }
     .items{
         width: 30%;
@@ -41,7 +41,7 @@ bg4{
     .news-sec{
         display: flex;
         height: 50vh;
-        border: 1px solid white;
+        border: 1px solid #420505;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
