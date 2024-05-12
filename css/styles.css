@@ -211,7 +211,12 @@ footer{
     margin-left: 10px !important;
     margin-right: 10px !important;
     border-radius: 10px !important;    
-                    }       
+                    }    
+#saludo {
+    font-size: 18px;
+    font-weight: bold;
+        }
+                         
 
 /* media queries */
         

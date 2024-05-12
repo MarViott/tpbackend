@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/64faf337e9.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div id="saludo"></div>
 
     <header>
         <div class="logo"></div>
@@ -95,6 +96,23 @@
         <p>copyright - 2024</p>
     </footer>
 </div>
+<script>
+    function mostrarSaludo() {
+      const horaActual = new Date().getHours();
+      const saludoDiv = document.getElementById('saludo');
   
+      if (horaActual >= 6 && horaActual < 12) {
+        saludoDiv.textContent = '¡Buenos días!';
+      } else if (horaActual >= 12 && horaActual < 18) {
+        saludoDiv.textContent = '¡Buenas tardes!';
+      } else {
+        saludoDiv.textContent = '¡Buenas noches!';
+      }
+    }
+  
+    // Llama a la función al cargar la página
+    mostrarSaludo();
+  </script>
+    
 </body>
 </html>
