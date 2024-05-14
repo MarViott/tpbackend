@@ -220,7 +220,7 @@ footer{
 
 /* media queries */
         
-@media screen and (min-width: 200px) and (max-width: 576px) or (orientation: portrait){
+@media screen and (min-width: 0px) and (max-width: 576px) {
       
     body{
         background: rgba(128, 128, 128, 0.695);
