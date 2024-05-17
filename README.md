@@ -69,7 +69,7 @@ Chatbot para interactuar con el usuario en tiempo real.
 
 ## Feedback
 
-Si tienes algún comentario, por favor escribe al mail marisaviotti@gmail.com
+Si tienes algún comentario, por favor escribe al mail de la representante del grupo: marisaviotti@gmail.com
 
 
 ## Colaboraciones
