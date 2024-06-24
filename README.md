@@ -12,7 +12,7 @@ Tiene como misión potenciar la difusión de las obras teatrales y espectáculos
 
 ## Equipo
 
-Grupo 5: Rocío Aranda, Mariela Sirur Flores, Marisa Viotti y Marcela Britos.
+Grupo 5: Rocío Aranda, Mariela Sirur Flores, Marcela Britos, Ana Carnero y Marisa Viotti.
 
 - [@Rocio1412](https://github.com/Rocio1412)
 - [@marielasirur](https://github.com/marielasirur)
