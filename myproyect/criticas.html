@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias de teatro</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+    <link rel="icon" href="img/logo.ico">
+     <!-- Bootstrap CSS-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <!-- Bootstrap icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <script src="https://kit.fontawesome.com/64faf337e9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+{% include 'defaults/header.html' %}
+
+<section class="container-fluid">
+  <div class="accordion" id="accordionExample">
+  <div class="accordion-item"> 
+    <h2 class="accordion-header">
+      <button class="accordion-button 02" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color:rgba(151, 127, 127, 0.671)";>
+          <i class="bi bi-emoji-heart-eyes-fill h1"></i>
+           <strong><i>Imperdibles!</i></strong>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+          <div class="row"></div>
+<div class="row">
+      <div class="col"><strong>Cyrano de Bergerac.</strong> La puesta en escena de esta obra es impecable. <i>La actuación de Gabriel Goity, su protagonista y el elenco es coral; los actores logran tanto conmover como hacer reir a la platea. La escenografía es muy buena.</i> La iluminación es perfecta. La música es original, compuesta para esta puesta. La dirección es excelente. La obra es muy recomendable.
+      </div>
+      <div class="col"><strong>La casa de Bernarda Alba. </strong>La puesta en escena de esta obra es impecable. La actuación de los actores es excelente. La escenografía es muy buena. La iluminación es perfecta. La música es muy buena. La dirección es excelente. La obra es muy recomendable.
+
+      </div>  
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg2">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: rgba(151, 127, 127, 0.671)";>
+        <i class="bi bi-emoji-smile-fill"> <strong>Recomendadas!</strong></i>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Mariquita Sanchez de Nadie.</strong> Lo mejor que le puede pasar a una obra de teatro en cartel son, básicamente, dos cosas: llenar la sala y que el público no pare de hablar de lo que pasó en escena cuando sale del teatro. Ese murmurar contento del público cuando deja la sala, habla de lo bien que funcionó el espectáculo ofrecido. Los aplausos, también son un termómetro evidente pero es un pacto tácito al terminar la función, más o menos caluroso.
+        La obra está basada en un cuento de Paula Jiménez España, con dramaturgia y dirección de Ariel Haal, logra todo eso.<br>           
+          <i>El unipersonal, es interpretado por la actriz Rafaela Gamba que despliega una rica paleta de recursos expresivos, compone cuatro personajes, y nos lleva de viaje en la historia a ese día clave en la vida de Mariquita.</i><br>          
+          La puesta y dirección utiliza, con acertada elección los elementos, luces y vestuario que marcan la época y el lugar, con dosis de humor y creatividad.<br>         
+          "Un suceso ficcional que no aparece en los libros de historia", adelanta el programa. Y es cierto, la historia de Mariquita Sánchez de Thompson, la mujer que escribió la letra del Himno Nacional, es poco conocida.<br>         
+          👉 Viernes 22 hs. Teatro Polonia, Fitz Roy 1477, Caba.
+          
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: rgba(151, 127, 127, 0.671)";>
+        <i class="bi bi-emoji-wink-fill"> <strong>Un clásico!</strong></i>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>EL acompañamiento.</strong> Un clásico de Carlos Gorostiza que todo estudiante de teatro o actuación debería ver como uno de los géneros locales más emblemáticos de nuestra dramaturgia y teatralidad.<br>
+          <i>En este caso, las hermanas Bornitk empoderan a la mujer representando un clásico argentino, sin quitarle nada de las características que identifican un grotesco criollo.</i> <br>          
+          El tango como recurso en la puesta las asiste maravillosamente para lograr esa identidad que evoca a la vez lo trágico y lo cómico, con lunfardo incluido.<br>          
+          Nora Bortnik y Laura Bortnik se lucen en sus roles con matices actorales, voces tangueras y cuerpos dúctiles, manteniendo la tensión del conflicto hasta el final. La dirección acertada es de Rodrigo Cárdenas.<br>          
+          ¿Hasta dónde los sueños, que deseamos se cumplan, nos liberan de nuestros fantasmas y vacíos existenciales? ¿Hasta dónde la amistad y la lealtad nos sostienen en la vida? ¿Hasta dónde la música y el arte nos salvan de la soledad y la desesperanza? <br>          
+          👉 Domingos 17 hs, El Opalo, Junín 380, Caba.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item bg2">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour" style="background-color: rgba(151, 127, 127, 0.671)";>
+          <i class="bi bi-emoji-laughing-fill"> <strong>Para reír!</strong></i>
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <div class="row"></div>
+<div class="row">
+        <div class="col"><strong>La máquina de la alegría.</strong> Alfredo Allende es el autor y director de esta pieza teatral que interpretan con amplia destreza, solidez y frescura Eduardo Calvo y Fernando Migueles.<br>
+          El equipo que forman el director-autor-guionista y sus actores-músicos-clowns con sus ricas trayectorias teatrales y televisivas, claramente nutren la escena de manera feliz como la máquina de su creación.<br>          
+          <i>La música, es el hilo conductor y el combustible del humor.</i> La escenografía, la iluminación y el vestuario, son elementos que acompañan y enriquecen la propuesta.<br>          
+          Los viernes a la noche, para reirse mucho y olvidarse de la semana estresante.</div>
+        <div class="col"><strong>Amistá.</strong>Tres malabaristas callejeros pintan la realidad con destreza para sobrevivir, trabajando en los semáforos de la ciudad. Los amigos comparten códigos, los devenires y la tensión por el resultado del día.<br> 
+          La dirección, puesta y los intérpretes -con una gran verdad actoral y despliegue físico- logran momentos de poesía escénica que conmueven al público: clavas, guitarra en vivo, manipulación de todo, delirios tragicómicos.<br>
+          🏆<i>Ganadora del Primer Premio Regional de CABA del Concurso Nacional de Proyectos de Danza 2020 otorgado por el Fondo Nacional de las Artes.</i> 
+        </div>           
+        </div>
+      </div>
+    </div>
+</section>
+
+{% include 'defaults/footer.html' %}                   
+        
+<!-- Bootstrap javascript  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
