@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from controller_db import *
+from controller_db import conexionMySQL # Importamos la función conexionMySQL
 
 app = Flask(__name__)
 
@@ -27,4 +27,5 @@ def datacriticas():
 def dataestrenos():
     title = "Estrenos"
     return render_template('estrenos.html', Estrenos=title)
+
 
