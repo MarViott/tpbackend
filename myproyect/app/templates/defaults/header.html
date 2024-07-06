@@ -1,7 +1,7 @@
 <div>
 <header>
     <div class="logo"></div>
-    <img src="img/logo.jpg" alt="logo" href="https://linktr.ee/seronoserredes"></a>
+    <img src="{{ url_for('static', filename='img/logo.ico') }}" alt="logo"  class="logo">
     
     <div class="search">
         <input type="text" placeholder="Buscar">
@@ -13,6 +13,7 @@
                 <li><a href="criticas">Críticas</a></li>
                 <li><a href="contacto">Contacto</a></li>
                 <li><a href="quienes-somos">Quienes Somos</a></li>
+                <li><a href="persona">Comunidad</a></li>
             </ul>
             <h1>{{title}}</h1>    
         </nav>

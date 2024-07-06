@@ -1,5 +1,6 @@
-from flask import Flask, render_template
-from controller_db import * # Importamos la función conexionMySQL
+from flask import Flask,render_template
+from datauser import * # Importamos la base de datos Json
+from controller_db import * # Importamos la base de datos MySQL
 
 app = Flask(__name__)
 
@@ -28,4 +29,7 @@ def dataestrenos():
     title = "Estrenos"
     return render_template('estrenos.html', Estrenos=title)
 
-
+@app.route("/persona/<int:id>")
+def dataUsers(id):
+    title="Usuarios"
+    return render_template("persona.html", title=title,user=users[id])

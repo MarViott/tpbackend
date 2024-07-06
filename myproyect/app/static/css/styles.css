@@ -72,7 +72,7 @@ header{
     }
     img{
         width: 12%;
-        height: fit-content;
+        height: auto;
         border-radius: 10px;      
         display: flex;
         justify-content: start;
@@ -125,7 +125,9 @@ header{
   
 }
     .logo{
-        width: 12%;                        
+        width: 12%;
+        height: auto;         
+                               
         }
         .logo img{
             width: 100%;
