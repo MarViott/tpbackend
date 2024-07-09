@@ -1,0 +1,42 @@
+{% include 'defaults/head.html' %}
+
+<body>
+    
+    {% include 'defaults/header.html' %}
+
+    <section class="container">
+        
+        <h1 class="mb-5">{{title}}</h1>
+        <a href="/comunidad" class="btn btn-link"><i class="bi bi-chevron-double-left"></i> volver</a>
+        
+        <!-- {{usuarios}} -->
+
+
+        <div class="form bg-warning p-5">
+            <form action="/comunidad/update_user" method="POST" class="w-75">
+                <!-- id -->
+                <input type="hidden" name="id" value="{{usuarios[0]}}">
+                <!-- nombre -->
+                <div class="mb-3">
+                    <label for="input1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="input1" name="nombre" value="{{usuarios[1]}}">
+                </div>
+                <div class="mb-3">
+                    <label for="input2" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="input2" name="email">{{usuarios[1]}}</textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="input4" class="form-label">Ocupacion</label>
+                    <input type="number" class="form-control" id="input4" name="ocupacion" value="{{usuarios[4]}}">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-dark" >
+                        <i class="bi bi-send"></i> Guardar cambios
+                    </button>
+                </div>
+            </form>
+        </div>
+        
+        
+    </section>
+    {% include 'defaults/footer.html' %}

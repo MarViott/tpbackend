@@ -2,7 +2,7 @@ import pymysql
 
 host = "localhost"
 user = "root"
-clave= "Day2024!!!"
+clave= ""
 db="seronoser"
 
 

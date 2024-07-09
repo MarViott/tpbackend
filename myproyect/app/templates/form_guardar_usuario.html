@@ -1,0 +1,40 @@
+{% include 'defaults/head.html' %}
+
+<body>
+    
+    {% include 'defaults/header.html' %}
+
+    <section class="container">
+        
+        <h1 class="mb-5">{{title}}</h1>
+        <a href="/comunidad" class="btn btn-link"><i class="bi bi-chevron-double-left"></i> volver</a>
+        
+        <div class="form">
+            <form id="form-new-usuarios" action="/comunidad/guardar_usuario" method="POST" class="w-75">
+                <div class="mb-3">
+                    <label for="input1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="input1" name="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="input3" type="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="input3" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="input4" class="form-label">Ocupacion</label>
+                    <input type="text" class="form-control" id="input4" name="ocupacion" required>
+                </div>
+            </form>
+            <div>
+                <button form="form-new-usuarios" type="submit" class="btn btn-dark" >
+                    <i class="bi bi-send"></i> Guardar usuarios
+                </button>
+            </div>
+        </div>
+        
+        
+    </section>
+    {% include 'defaults/footer.html' %}
+
+
+</body>
+</html>
