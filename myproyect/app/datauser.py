@@ -1,4 +1,11 @@
 users = [{
+    "id":"0",
+    "nombre":"Day",
+    "apellido":"Viotti",
+    "email":"dayviotti@gmail.com",
+    "ocupacion":"Desarrolladora"    
+},
+{
     "id":"1",
     "nombre":"Marisa",
     "apellido":"Viotti",
